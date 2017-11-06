@@ -311,11 +311,6 @@ view: records {
     sql: ${TABLE}.Coins_out ;;
   }
 
-  dimension: count {
-    type: number
-    sql: ${TABLE}.Count ;;
-  }
-
   dimension: counter_account_number {
     type: string
     sql: ${TABLE}.Counter_account_number ;;
@@ -1332,7 +1327,7 @@ view: records {
     sql: ${TABLE}.Zegelnummer ;;
   }
 
-  measure: recordcount {
+  measure: count {
     type: count
     drill_fields: [g4s_record*]
   }
