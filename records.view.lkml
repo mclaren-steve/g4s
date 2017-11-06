@@ -857,115 +857,115 @@ view: records {
     sql: ${TABLE}.POSStockRepl ;;
   }
 
-  dimension: post11_flag {
-    type: number
-    sql: ${TABLE}.Post11Flag ;;
-  }
+#  dimension: post11_flag {
+#    type: number
+#    sql: ${TABLE}.Post11Flag ;;
+#  }
 
-  dimension: post12_flag {
-    type: number
-    sql: ${TABLE}.Post12Flag ;;
-  }
+#  dimension: post12_flag {
+#    type: number
+#    sql: ${TABLE}.Post12Flag ;;
+#  }
 
-  dimension: post13_flag {
-    type: number
-    sql: ${TABLE}.Post13Flag ;;
-  }
+#  dimension: post13_flag {
+#    type: number
+#    sql: ${TABLE}.Post13Flag ;;
+#  }
 
-  dimension: post14_flag {
-    type: number
-    sql: ${TABLE}.Post14Flag ;;
-  }
+#  dimension: post14_flag {
+#    type: number
+#    sql: ${TABLE}.Post14Flag ;;
+#  }
 
-  dimension: post15_flag {
-    type: number
-    sql: ${TABLE}.Post15Flag ;;
-  }
+#  dimension: post15_flag {
+#    type: number
+#    sql: ${TABLE}.Post15Flag ;;
+#  }
 
-  dimension: post16_flag {
-    type: number
-    sql: ${TABLE}.Post16Flag ;;
-  }
+#  dimension: post16_flag {
+#    type: number
+#    sql: ${TABLE}.Post16Flag ;;
+#  }
 
-  dimension: post17_flag {
-    type: number
-    sql: ${TABLE}.Post17Flag ;;
-  }
+#  dimension: post17_flag {
+#    type: number
+#    sql: ${TABLE}.Post17Flag ;;
+#  }
 
-  dimension: post18_flag {
-    type: number
-    sql: ${TABLE}.Post18Flag ;;
-  }
+#  dimension: post18_flag {
+#    type: number
+#    sql: ${TABLE}.Post18Flag ;;
+#  }
 
-  dimension: post1_flag {
-    type: number
-    sql: ${TABLE}.Post1Flag ;;
-  }
+#  dimension: post1_flag {
+#    type: number
+#    sql: ${TABLE}.Post1Flag ;;
+#  }
 
-  dimension: post20_flag {
-    type: number
-    sql: ${TABLE}.Post20Flag ;;
-  }
+#  dimension: post20_flag {
+#    type: number
+#    sql: ${TABLE}.Post20Flag ;;
+#  }
 
-  dimension: post21_flag {
-    type: number
-    sql: ${TABLE}.Post21Flag ;;
-  }
+#  dimension: post21_flag {
+#    type: number
+#    sql: ${TABLE}.Post21Flag ;;
+#  }
 
-  dimension: post22_flag {
-    type: number
-    sql: ${TABLE}.Post22Flag ;;
-  }
+#  dimension: post22_flag {
+#    type: number
+#    sql: ${TABLE}.Post22Flag ;;
+#  }
 
-  dimension: post23_flag {
-    type: number
-    sql: ${TABLE}.Post23Flag ;;
-  }
+#  dimension: post23_flag {
+#    type: number
+#    sql: ${TABLE}.Post23Flag ;;
+#  }
 
-  dimension: post24_flag {
-    type: number
-    sql: ${TABLE}.Post24Flag ;;
-  }
+#  dimension: post24_flag {
+#    type: number
+#    sql: ${TABLE}.Post24Flag ;;
+#  }
 
-  dimension: post25_flag {
-    type: number
-    sql: ${TABLE}.Post25Flag ;;
-  }
+#  dimension: post25_flag {
+#    type: number
+#    sql: ${TABLE}.Post25Flag ;;
+#  }
 
-  dimension: post26_flag {
-    type: number
-    sql: ${TABLE}.Post26Flag ;;
-  }
+#  dimension: post26_flag {
+#    type: number
+#    sql: ${TABLE}.Post26Flag ;;
+#  }
 
-  dimension: post2_flag {
-    type: number
-    sql: ${TABLE}.Post2Flag ;;
-  }
+#  dimension: post2_flag {
+#    type: number
+#    sql: ${TABLE}.Post2Flag ;;
+#  }
 
-  dimension: post4_flag {
-    type: number
-    sql: ${TABLE}.Post4Flag ;;
-  }
+#  dimension: post4_flag {
+#    type: number
+#    sql: ${TABLE}.Post4Flag ;;
+#  }
 
-  dimension: post5_flag {
-    type: number
-    sql: ${TABLE}.Post5Flag ;;
-  }
+#  dimension: post5_flag {
+#    type: number
+#    sql: ${TABLE}.Post5Flag ;;
+#  }
 
-  dimension: post7_flag {
-    type: number
-    sql: ${TABLE}.Post7Flag ;;
-  }
+#  dimension: post7_flag {
+#    type: number
+#    sql: ${TABLE}.Post7Flag ;;
+#  }
 
-  dimension: post8_flag {
-    type: number
-    sql: ${TABLE}.Post8Flag ;;
-  }
+#  dimension: post8_flag {
+#    type: number
+#    sql: ${TABLE}.Post8Flag ;;
+#  }
 
-  dimension: post9_flag {
-    type: number
-    sql: ${TABLE}.Post9Flag ;;
-  }
+#  dimension: post9_flag {
+#    type: number
+#    sql: ${TABLE}.Post9Flag ;;
+#  }
 
   dimension: precred {
     type: number
