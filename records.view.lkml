@@ -1334,6 +1334,107 @@ view: records {
 
   measure: recordcount {
     type: count
-    drill_fields: [product_name]
+    drill_fields: [g4s_record*]
+  }
+
+  measure: count_percent {
+    type: percent_of_total
+    sql: ${count};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_service {
+    type: sum
+    sql: ${service};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_waarde {
+    type: sum
+    sql: ${waarde};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_amount {
+    type: sum
+    sql: ${amount};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_amount_2 {
+    type: sum
+    sql: ${amount_2};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_precred {
+    type: sum
+    sql: ${precred};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_notes_in {
+    type: sum
+    sql: ${notes_in};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_notes_out {
+    type: sum
+    sql: ${notes_out};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_coins_in {
+    type: sum
+    sql: ${coins_in};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_coins_out {
+    type: sum
+    sql: ${coins_out};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_posstock_in {
+    type: sum
+    sql: ${posstock_in};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_posstock_repl {
+    type: sum
+    sql: ${posstock_repl};;
+    drill_fields: [g4s_record*]
+  }
+
+  measure: sum_card_amount {
+    type: sum
+    sql: ${card_amount};;
+    drill_fields: [g4s_record*]
+  }
+
+  set: g4s_record {
+    fields: [
+      system,
+      location,
+      service,
+      waarde,
+      amount,
+      amount_2,
+      amount_eur,
+      event_date_time,
+      event_code,
+      seal_number,
+      transp_datum_date,
+      leverdatum_date,
+      procesdatum_date,
+      precred,
+      notes_in,
+      notes_out,
+      coins_in,
+      coins_out
+    ]
   }
 }
